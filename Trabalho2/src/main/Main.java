@@ -47,14 +47,15 @@ public class Main {
                                 break;
 
                             case 4:
-
+                                
                                 break;
                             
                             default:
-                                
+                                System.out.println("Opção inválida");
                                 break;
-                            case 0:
                             
+                            case 0:
+                                System.out.println("Você saiu");
                             
                         }
                     } while (op1 != 0);
