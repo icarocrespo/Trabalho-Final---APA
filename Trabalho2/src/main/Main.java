@@ -35,33 +35,89 @@ public class Main {
 
                         switch (op1) {
                             case 1:
-
+                                System.out.println("Operação 1 selecionada");
+                                fb.operacao1();
+                                fb.showArray();
                                 break;
 
                             case 2:
-
+                                System.out.println("Operação 2 selecionada");
+                                fb.operacao2();
+                                fb.showArray();
                                 break;
 
                             case 3:
-
+                                System.out.println("Operação 3 selecionada");
+                                fb.operacao3();
+                                fb.showArray();
                                 break;
 
                             case 4:
-                                
+                                System.out.println("Operação 4 selecionada");
+                                fb.operacao4();
+                                fb.showArray();
                                 break;
-                            
+
                             default:
                                 System.out.println("Opção inválida");
                                 break;
-                            
+
                             case 0:
                                 System.out.println("Você saiu");
-                            
+
                         }
                     } while (op1 != 0);
                     break;
 
                 case 2:
+                    System.out.print("Digite o tamanho do vetor: ");
+                    dc = new DivisaoConquista(x.nextInt());
+
+                    dc.populaArray();
+
+                    int op2;
+
+                    do {
+                        System.out.println("---------- MENU Força Bruta ----------");
+                        Main.operacoes();
+
+                        op2 = x.nextInt();
+
+                        switch (op2) {
+
+                            case 1:
+                                System.out.println("Operação 1 selecionada");
+                                dc.operacao1();
+                                dc.showArray();
+                                break;
+
+                            case 2:
+                                System.out.println("Operação 2 selecionada");
+                                dc.operacao2();
+                                dc.showArray();
+                                break;
+
+                            case 3:
+                                System.out.println("Operação 3 selecionada");
+                                dc.operacao3();
+                                dc.showArray();
+                                break;
+
+                            case 4:
+                                System.out.println("Operação 4 selecionada");
+                                dc.operacao4();
+                                dc.showArray();
+                                break;
+
+                            default:
+                                System.out.println("Opção inválida");
+                                break;
+
+                            case 0:
+                                System.out.println("Você saiu");
+
+                        }
+                    } while (op2 != 0);
 
                     break;
 
