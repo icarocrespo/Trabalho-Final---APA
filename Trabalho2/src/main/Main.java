@@ -9,7 +9,7 @@ public class Main {
 
         Scanner x = new Scanner(System.in);
         ForcaBruta fb;
-        DivisaoConquista dc;
+        ProgramacaoDinamica pd;
         int op;
 
         do {
@@ -71,9 +71,9 @@ public class Main {
 
                 case 2:
                     System.out.print("Digite o tamanho do vetor: ");
-                    dc = new DivisaoConquista(x.nextInt());
+                    pd = new ProgramacaoDinamica(x.nextInt());
 
-                    dc.populaArray();
+                    pd.populaArray();
 
                     int op2;
 
@@ -87,26 +87,26 @@ public class Main {
 
                             case 1:
                                 System.out.println("Operação 1 selecionada");
-                                dc.operacao1();
-                                dc.showArray();
+                                pd.operacao1();
+                                pd.showArray();
                                 break;
 
                             case 2:
                                 System.out.println("Operação 2 selecionada");
-                                dc.operacao2();
-                                dc.showArray();
+                                pd.operacao2();
+                                pd.showArray();
                                 break;
 
                             case 3:
                                 System.out.println("Operação 3 selecionada");
-                                dc.operacao3();
-                                dc.showArray();
+                                pd.operacao3();
+                                pd.showArray();
                                 break;
 
                             case 4:
                                 System.out.println("Operação 4 selecionada");
-                                dc.operacao4();
-                                dc.showArray();
+                                pd.operacao4();
+                                pd.showArray();
                                 break;
 
                             default:

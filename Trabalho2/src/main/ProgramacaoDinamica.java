@@ -2,12 +2,12 @@ package main;
 
 import java.util.Scanner;
 
-public class DivisaoConquista {
+public class ProgramacaoDinamica {
 
     private Integer[] arrayA;
     private Integer[] arrayP;
 
-    public DivisaoConquista(Integer tamanho) {
+    public ProgramacaoDinamica(Integer tamanho) {
         this.arrayA = new Integer[tamanho];
         this.arrayP = new Integer[tamanho];
     }
@@ -21,19 +21,19 @@ public class DivisaoConquista {
     }
 
     public void operacao1() {
-
+        System.out.println("Não implementada");
     }
 
     public void operacao2() {
-
+        System.out.println("Não implementada");
     }
 
     public void operacao3() {
-
+        System.out.println("Não implementada");
     }
 
     public void operacao4() {
-
+        System.out.println("Não implementada");
     }
 
     public void showArray() {
