@@ -1,0 +1,19 @@
+Universidade Federal do Pampa - Campus Alegrete
+Trabalho Final de Análise e Projetos de Algoritmos
+
+Professor: Arthur Lorenzon
+Autor: Ícaro Machado Crespo.
+
+
+INSTRUÇÕES PARA EXECUTAR:
+
+
+- Opção 1: Na raiz do projeto acesse: 
+dist -> Trabalho2.jar (necessário ter a Java Runtime Machine instalada)
+
+
+- Opção 2: Acesse seu terminal e digite:
+java -jar "[LOCAL DA PASTA DESCOMPACTADA]\dist\Trabalho2.jar"
+
+- Opção 3: Abra sua IDE, preferencialmente NetBeans e:
+Clique em "Arquivo" -> "Abrir projeto". Selecione-o. Após, "Executar" -> "Executar projeto".
